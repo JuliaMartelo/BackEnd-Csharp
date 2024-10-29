@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RevieConcepts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0e4744b4210c9712e099a16e8ce5d16408a1353")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dbad5535b1491923dad33db3a198321fe3c3547e")]
 [assembly: System.Reflection.AssemblyProductAttribute("RevieConcepts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RevieConcepts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
