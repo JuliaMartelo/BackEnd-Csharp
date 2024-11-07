@@ -1,38 +1,33 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace Calculator
+namespace Calculador.Classes
 {
     public class Calculadora
     {
         public float numero1;
+
         public float numero2;
 
-        public float Somar()
-        {
-           float resultado = numero1 + numero2;
-           Console.WriteLine($"O resultado da sua soma eh: {resultado} ");
-           
-        }
 
-        public float Subtrair ()
-        {
-           float resultado = numero1 - numero2;
-           Console.WriteLine($"O resultado da sua subtracao eh: {resultado}");
+        public void Somar(float numero){
+            numero = numero1 + numero2 ;
+            Console.WriteLine(numero);
+        }   
+        
+        public void Subtrair(float numero){
+            numero = numero1 - numero2 ;
+            Console.WriteLine(numero);
         }
-
-        public Multiplicar ()
-        {
-           float resultado = numero1 * numero2;
-            Console.WriteLine($"O resultado da sua multiplicacao eh: {resultado} ");
+            
+        
+        
+        public void Multiplicar(float numero){
+            numero = numero1 * numero2;
+            Console.WriteLine(numero);
         }
-
-        public Dividir ()
-        {
-            float resultado = numero1 / numero2;
-            Console.WriteLine($"O resultado da sua divisao  eh: {resultado}");
+        
+        
+        public void Dividir(float numero){
+            numero = numero1 / numero2;
+            Console.WriteLine(numero);
         }
     }
 }
