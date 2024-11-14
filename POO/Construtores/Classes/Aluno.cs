@@ -8,21 +8,16 @@ namespace Construtores.Classes
     public class Aluno
     {
         public string nome;
-        public int idade;
-        public string matricula;
+        public int CPF;
 
-        public Aluno (string nm, int id , string ma){
-            nome = nm;
-            idade = id;
-            matricula = ma;
+        public Aluno (string chuchu){
+            nome = chuchu;
         }
 
         public void ExibirDados()
         {
              Console.WriteLine(@$"
-        Nome: {nome}
-        Idade: {idade}
-        Matricula: {matricula}");
+        Nome: {nome}");
         }
     }
     }
